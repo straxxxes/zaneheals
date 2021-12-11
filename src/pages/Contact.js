@@ -7,8 +7,8 @@ export default function Contact() {
 			<div className='contact-text'>
 				<h1>Get in touch and let me help you.</h1>
 				<p>
-					Limited spots available as demand for this is huge.
-					<br /> Don't miss out on this, because there's absolutely no risk to you whatsoever!
+					Limited spots available as demand for this is huge. Don't miss out on this, because there's
+					absolutely no risk to you whatsoever!
 				</p>
 				<b>You honestly have nothing to lose!</b>
 				<p>

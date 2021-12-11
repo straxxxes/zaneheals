@@ -6,7 +6,6 @@ function Home() {
 	return (
 		<React.Fragment>
 			<div className='landing-bg' style={{ backgroundImage: 'url(' + landingImage + ')' }}></div>
-			<div className='scroll-arrow'></div>
 			<section className='landing-area'>
 				<div className='section-text'>
 					<h1>Providing medical relief for all.</h1>
@@ -16,6 +15,7 @@ function Home() {
 						<button className='cta-btn'>Get in touch</button>
 					</Link>
 				</div>
+				<div className='scroll-arrow'></div>
 			</section>
 			<section className='about-section'>
 				<div className='about-section_text'>

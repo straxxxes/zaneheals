@@ -1,8 +1,9 @@
 .about-page {
 	padding-top: calc(64px * 2);
 	padding-bottom: 64px;
-	width: 50vw;
+	width: 60vw;
 	margin: auto;
+	overflow-x: hidden;
 }
 
 .special-lists {
@@ -49,4 +50,39 @@
 	background-position: center center;
 	background-image: url('../images/undraw_conversation_re_c26v.svg');
 	z-index: -1;
+}
+
+@media only screen and (max-width: 1024px) {
+	.about-page {
+		font-size: 14px;
+		width: 100vw;
+		padding: 64px 1rem 1rem 1rem;
+	}
+
+	.reason-list {
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-left: 1rem;
+	}
+	.reason-list:nth-child(1) {
+		margin-top: 1rem;
+	}
+
+	.special-lists {
+		flex-direction: column;
+	}
+	.special-lists > div > h3 {
+		font-size: 1.25rem !important;
+	}
+	.special-lists > div > ul {
+		padding: 0;
+		margin: 0;
+		margin-left: 1rem;
+	}
+	.contact-btn {
+		padding: 1rem;
+		margin: 0;
+		font-size: 16px;
+	}
 }
