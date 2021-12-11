@@ -1,13 +1,12 @@
 import React from 'react';
-import landingImage from '../images/pexels-arina-krasnikova-6998268.jpg';
 import { Link } from 'react-router-dom';
 
 function Home() {
 	return (
 		<React.Fragment>
-			<div className='landing-bg' style={{ backgroundImage: 'url(' + landingImage + ')' }}></div>
+			<div className='scroll-arrow'></div>
 			<section className='landing-area'>
-				<div className='section-text'>
+				<div className='landing-text'>
 					<h1>Providing medical relief for all.</h1>
 					<p> Heal any disease and conquer any drug addiction with this magnetic healing therapy.</p>
 					<p>This is a 90 day Magnetic Healing Process. Healing your Body, Mind and Soul.</p>
@@ -15,7 +14,6 @@ function Home() {
 						<button className='cta-btn'>Get in touch</button>
 					</Link>
 				</div>
-				<div className='scroll-arrow'></div>
 			</section>
 			<section className='about-section'>
 				<div className='about-section_text'>

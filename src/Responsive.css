@@ -69,8 +69,44 @@
 	}
 
 	.contact-section {
-		font-size: 16px;
+		font-size: 18px;
 		padding: 1rem;
+	}
+
+	.landing-area > .landing-text {
+		width: calc(100vw - 2rem);
+		background: #eee;
+		margin-right: 0;
+		margin-left: auto;
+		max-height: 400px;
+		padding-top: 100px;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		text-align: center;
+	}
+	.landing-area > .landing-text > p {
+		margin: 0;
+	}
+	.scroll-arrow {
+		background: #eee;
+	}
+
+	.about-section {
+		height: 150vh;
+		background-position: center center;
+	}
+	.about-section_text {
+		width: 100vw;
+		height: 100vh;
+		max-height: 600px;
+	}
+	.about-section_text > div {
+		width: calc(100vw - 2rem);
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+	.about-section_text > button {
+		margin: auto;
 	}
 }
 

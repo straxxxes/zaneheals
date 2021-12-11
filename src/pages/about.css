@@ -54,9 +54,9 @@
 
 @media only screen and (max-width: 1024px) {
 	.about-page {
-		font-size: 14px;
+		font-size: 20px;
 		width: 100vw;
-		padding: 64px 1rem 1rem 1rem;
+		padding: 100px 1rem 3rem 1rem;
 	}
 
 	.reason-list {
